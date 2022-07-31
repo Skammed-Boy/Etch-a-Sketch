@@ -1,0 +1,79 @@
+*{
+    font-family: system-ui;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 700px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 80px;
+    border-radius: 5px;;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(1.2);
+}
+
+.colorAndPrompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#color {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    width: 80px;
+    height: 30px;
+}
+
+.value {
+    font-size: 25px;
+    padding-left: 10px;
+    margin-top: -1.5px
+}
+
+.grid {
+    margin-top: 40px;
+    
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 350px;
+    width: 350px;
+    background-color: gray;
+
+}
+
+.cell {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.sliderandvalue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
